@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="p-5 flex w-screen">
       <Sidebar />
       <TopHeader/>
-      <div className="mt-28 ml-10">
+      <div className="mt-28 ml-10 w-full">
         <Component {...pageProps} />
       </div>
     </div>

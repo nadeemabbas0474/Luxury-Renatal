@@ -1,4 +1,32 @@
 @tailwind base;
+@layer base {
+  h1 {
+      @apply text-2xl;
+      @apply font-black;
+  }
+  h2 {
+      @apply text-xl;
+      @apply font-black;
+  }
+  h3 {
+      @apply text-lg;
+      @apply font-black;
+  }
+  a {
+      @apply text-blue-600;
+      @apply text-lg;
+  }
+  ol,
+  ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  ,
+  p {
+      @apply text-lg;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
