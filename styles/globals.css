@@ -47,3 +47,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.start-box {
+  clip-path: polygon(49% 33%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+}
